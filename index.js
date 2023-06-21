@@ -132,9 +132,9 @@ const nums = numbers1.filter((value, index, arr) => {
 
 console.log(nums);
 
-const total = numbers.reduce((accumulator, value) => {
+const sums = numbers.reduce((accumulator, value) => {
     return accumulator + value;
 });
 
 
-console.log(total);
+console.log(sums);
